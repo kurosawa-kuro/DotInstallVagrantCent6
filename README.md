@@ -13,6 +13,10 @@ cd centos6
 exec $SHELL -l
 ```
 
+```
+vagrant snapshot save ansibled
+```
+
 # Java
 
 ```
