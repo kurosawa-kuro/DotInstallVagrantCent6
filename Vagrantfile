@@ -68,4 +68,7 @@ Vagrant.configure(2) do |config|
   #   sudo apt-get update
   #   sudo apt-get install -y apache2
   # SHELL
+    
+  # 【Upload File】
+  config.vm.provision "file", source: "./setup", destination: "$HOME/setup"
 end
