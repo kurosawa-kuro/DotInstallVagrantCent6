@@ -14,5 +14,5 @@ vagrant snapshot save ansibled
 ## MySQL
 
 ```
-## mysql -u root
+mysql -u root
 ```
