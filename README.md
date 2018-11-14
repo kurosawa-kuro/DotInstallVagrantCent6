@@ -1,6 +1,4 @@
-# DotInstallVagrantCent6
-
-## Install
+# Install
 
 ```
 sudo yum -y update
@@ -15,24 +13,30 @@ cd centos6
 exec $SHELL -l
 ```
 
-## Java
+# Java
 
 ```
 sudo yum -y install java-1.8.0-openjdk-devel
 ```
 
-## Go
+# Go
 
 ```
 sudo yum install -y golang
 go version
 ```
 
-## Scala
+# Scala
 
 ```
 curl https://bintray.com/sbt/rpm/rpm | sudo tee /etc/yum.repos.d/bintray-sbt-rpm.repo
 sudo yum install -y sbt
+```
+
+# phpMyAdmin
+
+```
+yum --enablerepo=epel install -y  phpMyAdmin
 ```
 
 # Docker
