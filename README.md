@@ -9,3 +9,10 @@ vagrant plugin install vagrant-vbguest
 vagrant snapshot save ansibled
 ```
 
+# Database
+
+## MySQL
+
+```
+## mysql -u root
+```
