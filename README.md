@@ -19,4 +19,5 @@ exec $SHELL -l
 
 ```
 sudo yum install -y golang
+go version
 ```
