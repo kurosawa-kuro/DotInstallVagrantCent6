@@ -1,0 +1,1 @@
+# DotInstallVagrantCent6
