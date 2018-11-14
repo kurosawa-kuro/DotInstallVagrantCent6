@@ -15,11 +15,24 @@ cd centos6
 exec $SHELL -l
 ```
 
+## Java
+
+```
+sudo yum -y install java-1.8.0-openjdk-devel
+```
+
 ## Go
 
 ```
 sudo yum install -y golang
 go version
+```
+
+## Scala
+
+```
+curl https://bintray.com/sbt/rpm/rpm | sudo tee /etc/yum.repos.d/bintray-sbt-rpm.repo
+sudo yum install -y sbt
 ```
 
 # Docker
