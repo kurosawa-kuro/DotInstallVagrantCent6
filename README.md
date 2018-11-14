@@ -116,3 +116,8 @@ Alias /phpmyadmin /usr/share/phpMyAdmin
 #    </Directory>
 #</IfModule>
 ```
+
+/etc/phpMyAdmin/config.inc.php
+```
+$cfg['Servers'][$i]['AllowRoot']     = TRUE;        // whether to allow root login
+```
