@@ -4,11 +4,9 @@
 # set -x
 
 echo -e $'\e[1;31m ================================= \e[m'
-echo -e $'\e[1;31m vagrant box add                \e[m'
+echo -e $'\e[1;31m vagrant up \e[m'
 echo -e $'\e[1;31m ================================= \e[m'
-vagrant box add ubuntu/xenial64
-vagrant box add ubuntu/bionic64
+vagrant snapshot list
 
-vagrant box add bento/centos-6.7
 # デバッグを終了する
 set +x
