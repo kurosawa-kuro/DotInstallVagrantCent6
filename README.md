@@ -6,7 +6,7 @@ vagrant plugin install vagrant-vbguest
 
 # snapshot save
 ```
-vagrant snapshot save ansibled
+vagrant snapshot save bootstrapped
 ```
 
 # Database
