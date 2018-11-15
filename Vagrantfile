@@ -70,5 +70,5 @@ Vagrant.configure(2) do |config|
   # SHELL
     
   # 【Upload File】
-  config.vm.provision "file", source: "./setup", destination: "$HOME/setup"
+  config.vm.provision "file", source: "./bootstrap", destination: "$HOME/bootstrap"
 end
