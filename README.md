@@ -79,3 +79,7 @@ create table users (
 
 mysql -u dbuser -p dotinstall_db
 ```
+
+# phpMyAdmin
+
+[192.168.33.11/phpmyadmin](http://192.168.33.11/phpmyadmin)
