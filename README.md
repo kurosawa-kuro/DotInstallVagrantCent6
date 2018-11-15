@@ -4,6 +4,14 @@
 vagrant plugin install vagrant-vbguest
 ```
 
+# Cloud9
+
+```
+docker run -it -d -p 1234:80 -v "$(pwd):/workspace/" kdelfour/cloud9-docker
+```
+
+[192.168.33.11:1234](http://192.168.33.11:1234)
+
 # snapshot 
 
 ## snapshot save
