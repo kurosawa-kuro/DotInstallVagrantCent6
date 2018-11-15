@@ -1,10 +1,30 @@
 # Install vagrant-vbguest
 
+- host
+
 ```
 vagrant plugin install vagrant-vbguest
 ```
+# Vagrant
+## Vagrant up
+
+- host
+
+```
+./script/up.sh
+```
+
+## Vagrant ssh
+
+- host
+
+```
+./script/ssh.sh
+```
 
 # Cloud9
+
+- guest
 
 ```
 docker run -it -d -p 1234:80 -v "$(pwd):/workspace/" kdelfour/cloud9-docker
@@ -15,12 +35,18 @@ docker run -it -d -p 1234:80 -v "$(pwd):/workspace/" kdelfour/cloud9-docker
 # snapshot 
 
 ## snapshot save
+
+- host
+
 ```
 vagrant snapshot save bootstrapped
 vagrant snapshot restore bootstrapped
 ```
 
 ## snapshot save
+
+- host
+
 ```
 vagrant snapshot list
 vagrant snapshot push
@@ -31,9 +57,13 @@ vagrant snapshot pop
 
 ## MySQL
 
+- guest
+
 ```
 mysql -u root
 ```
+
+- guest mysql
 
 ```
 mysql -u root
