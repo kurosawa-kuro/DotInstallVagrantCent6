@@ -5,6 +5,13 @@
 ```
 vagrant plugin install vagrant-vbguest
 ```
+
+- guest
+
+```
+sudo yum -y update
+```
+
 # Vagrant
 ## Vagrant up
 
