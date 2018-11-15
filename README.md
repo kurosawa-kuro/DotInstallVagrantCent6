@@ -4,9 +4,19 @@
 vagrant plugin install vagrant-vbguest
 ```
 
-# snapshot save
+# snapshot 
+
+## snapshot save
 ```
-vagrant snapshot save ansibled
+vagrant snapshot save bootstrapped
+vagrant snapshot restore bootstrapped
+```
+
+## snapshot save
+```
+vagrant snapshot list
+vagrant snapshot push
+vagrant snapshot pop
 ```
 
 # Database
