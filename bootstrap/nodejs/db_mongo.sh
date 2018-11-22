@@ -17,6 +17,7 @@ EOF
 sudo yum install -y mongodb-org
 sudo service mongod start
 sudo chkconfig mongod on
+
 mongo --version
 
 # デバッグを終了する

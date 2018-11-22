@@ -17,6 +17,7 @@ sudo yum -y remove nodejs
 sudo yum clean all
 
 sudo yum -y install nodejs
+
 node -v
 
 # デバッグを終了する
