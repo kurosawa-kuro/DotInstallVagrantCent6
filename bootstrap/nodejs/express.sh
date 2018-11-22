@@ -7,6 +7,7 @@ echo -e $'\e[1;31m ================================= \e[m'
 echo -e $'\e[1;31m express                 　 　      \e[m'
 echo -e $'\e[1;31m ================================= \e[m'
 sudo npm install express -g
+sudo npm install express-generator -g
 
 npm ls -g | grep express
 
