@@ -21,6 +21,11 @@ rm -rf .vagrant
 echo -e $'\e[1;31m ================================= \e[m'
 echo -e $'\e[1;31m vagrant up                        \e[m'
 echo -e $'\e[1;31m ================================= \e[m'
+vagrant plugin install vagrant-vbguest
+
+echo -e $'\e[1;31m ================================= \e[m'
+echo -e $'\e[1;31m vagrant up                        \e[m'
+echo -e $'\e[1;31m ================================= \e[m'
 vagrant up
 
 # デバッグを終了する
