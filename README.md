@@ -1,3 +1,9 @@
+# chmod bootstrap
+
+```
+find ./bootstrap -type f -print | xargs chmod u+x
+```
+
 # Install vagrant-vbguest
 
 - host
