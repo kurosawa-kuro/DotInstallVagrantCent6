@@ -7,6 +7,7 @@ echo -e $'\e[1;31m ================================= \e[m'
 echo -e $'\e[1;31m phpMyAdmin               　　      \e[m'
 echo -e $'\e[1;31m ================================= \e[m'
 sudo yum -y install --enablerepo=remi-php56 phpMyAdmin
+# sudo yum install -y --enablerepo=remi-php71 phpMyAdmin
 
 sudo tee /etc/httpd/conf.d/phpMyAdmin.conf <<- 'EOF'
 # phpMyAdmin - Web based MySQL browser written in php
